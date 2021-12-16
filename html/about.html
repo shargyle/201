@@ -1,3 +1,6 @@
+<!-- Author: Seth Argyle -->
+<!-- Last edited: 12/16/21 -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Clean Blog - Start Bootstrap Theme</title>
+        <title>About Me</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
@@ -13,35 +16,38 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="../styles/styles.css" rel="stylesheet" />
+        <link href="../styles/mystyles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <!-- change this link to take you somewhere else -->
+                <a class="navbar-brand" id="top">Seth Argyle</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li> -->
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="dash.html">Dashboards</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/about-bg.jpg')">
+        <header class="masthead" style="background-image: url('../images/img/BYU\ vs\ Utah.jpeg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="page-heading">
                             <h1>About Me</h1>
-                            <span class="subheading">This is what I do.</span>
+                            <span class="subheading page-heading"><a href="#resume" class="white">Resume</a> | <a href="#love" class="white">What I Love</a></span>
                         </div>
                     </div>
                 </div>
@@ -52,18 +58,61 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+                        <h1 id="resume">Resume</h1>
+                        <ol>
+                            <li>Education</li>
+                                <ul>
+                                    <li href='byu.edu'>Brigham Young University</li>
+                                        <ul>
+                                            <li>Bachelor of Science: Statistics, Emphasis in Data Science* (2023)</li> 
+                                            <li>Minor in Business (2023)</li>
+                                            <li>Relevant Coursework:</li>
+                                                <ul>
+                                                    <li>Analysis of Variance</li>
+                                                    <li>Statistical Inference and Probability</li>
+                                                    <li>Intro to Bayesian Statistics</li>
+                                                    <li>Intro to Information Systems</li>
+                                                    <li>Principles of Accounting & Finance</li>
+                                                </ul>
+                                        </ul>
+                                    <li>High School Degree (2018)</li>
+                                </ul>
+                            <li>Experience</li>
+                                <ul>
+                                    <li>Research Assistant at BYU</li>
+                                    <li>Peer Mentor for BYU Office of First-Year Experience</li>
+                                    <li>Classroom Teacher at Provo Missionary Training Center</li>
+                                </ul>
+                            <li>Skills</li>
+                                <ul>
+                                    <li>Fluent in Spanish (reading, writing, and speaking)</li>
+                                    <li>Beginner: SAS, SQL, Excel Automation (VBA), Tableau</li>
+                                    <li>Interediate: R, Python, Shell Programming in Linux</li>
+                                </ul>
+                        </ol>
+                        <p>*For more information on BYU's education in Data Science, go <a href='https://stem.byu.edu/data-science'>here</a>.</p>
                     </div>
                 </div>
+                <!-- Divider-->
+                <hr class="tall" />
+                <h1 id="love">What I Love</h1>
+                <div class="float">
+                    <img src="../images/img/oquirrh-mountain-utah-temple-277.jpg" alt="Oquirrh Mountain Utah Temple" title="Oquirrh Mountain Utah Temple">
+                    <img src="../images/img/Basketball.JPG" alt="#4 (Arglye) shooting a layup against Riverton" title="CHHS Basketball">
+                    <img src="../images/img/Half Marathon.png" alt="Half Marathon" title="Half Marathon">
+                    <img src="../images/img/Intramural Soccer.JPG" alt="BYU Intramural Soccer" title="BYU Intramural Soccer">
+                <div style="text-align: center;">
+                    <iframe width="950" height="534" src="https://www.youtube.com/embed/HrNzrrLr8O4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class=""></iframe>
+                </div>
+                <div class="d-flex justify-content-end mb-4 stopfloating"><a class="btn btn-primary text-uppercase" href="#top">Back to Top</a></div>
             </div>
+            <p class="contact">Contact me: (123) 456-7890, sethargyle@gmail.com</p>
         </main>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
+                    <!-- <div class="col-md-10 col-lg-8 col-xl-7">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item">
                                 <a href="#!">
@@ -90,9 +139,11 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2021</div>
-                    </div>
+                    </div> -->
                 </div>
+            </div>
+            <div class="small text-center text-muted fst-italic">
+                <p>Copyright &copy; Seth Argyle 2021</p>
             </div>
         </footer>
         <!-- Bootstrap core JS-->
@@ -101,3 +152,5 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+
